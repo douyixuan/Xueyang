@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968b771d-c189-43bc-aa8f-43438ac03e42" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/weather/2cities.txt" afterPath="$PROJECT_DIR$/weather/2cities.txt" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,12 +45,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2cities.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2cities.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/2cities.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="1071" lean-forward="false" selection-start-line="0" selection-start-column="1071" selection-end-line="0" selection-end-column="1071" />
+              <caret line="0" column="1064" lean-forward="false" selection-start-line="0" selection-start-column="1064" selection-end-line="0" selection-end-column="1064" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -87,16 +98,6 @@
               <folding>
                 <element signature="e#84#98#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,6 +147,7 @@
         <option value="$PROJECT_DIR$/weather/csv2excel.py" />
         <option value="$PROJECT_DIR$/weather/cities.txt" />
         <option value="$PROJECT_DIR$/weather/2cities.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -407,8 +409,19 @@
     <entry file="file://$PROJECT_DIR$/weather/2cities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="1071" lean-forward="false" selection-start-line="0" selection-start-column="1071" selection-end-line="0" selection-end-column="1071" />
+          <caret line="0" column="1064" lean-forward="false" selection-start-line="0" selection-start-column="1064" selection-end-line="0" selection-end-column="1064" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
