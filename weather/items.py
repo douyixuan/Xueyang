@@ -22,4 +22,4 @@ class WeatherItem(scrapy.Item):
     CO = scrapy.Field()
     NO2 = scrapy.Field()
     O3_8h = scrapy.Field()
-    pass
+    #pass

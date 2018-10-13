@@ -36,7 +36,7 @@ ROBOTSTXT_OBEY = False
 #COOKIES_ENABLED = False
 
 # Disable Telnet Console (enabled by default)
-TELNETCONSOLE_ENABLED = True
+TELNETCONSOLE_ENABLED = False
 
 # Override the default request headers:
 #DEFAULT_REQUEST_HEADERS = {
@@ -93,8 +93,10 @@ TELNETCONSOLE_ENABLED = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
-FEED_URI = u'file:/Users/mengxiangyu/Downloads/weather.csv'  #将抓取的数据存放到douban.csv文件中。(从E:/开始，换成你的目录)
-FEED_FORMAT = 'csv'
+
+
+#FEED_URI = u'file:/Users/mengxiangyu/Downloads/weather.csv'  #将抓取的数据存放到douban.csv文件中。(从/users开始，换成你的目录)
+#FEED_FORMAT = 'csv'
 
 # config of splash
 #SPLASH_URL = 'http://localhost:8050'
@@ -108,9 +110,7 @@ FEED_FORMAT = 'csv'
 
 #### config selenium
 DOWNLOADER_MIDDLEWARES = {
-
-}
-DOWNLOADER_MIDDLEWARES = {
-    'weather.JSMiddleware.PhantomJSMiddleware': 100,
+    #'weather.JSMiddleware.PhantomJSMiddleware': 100,
+    'weather.JSMiddleware.ChromeMiddleware': 100,
     'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware':None, #禁止内置的中间件
 }
