@@ -36,6 +36,9 @@ https://jingyan.baidu.com/article/8ebacdf02d3c2949f65cd5d0.html
 >>>cd （Xueyang-master那个文件夹的路径）
 >>>scrapy crawl angel
 
+最后爬完数据以后,csv转换excel
+>>>cd weather
+>>>python csv2excel
 ```
 ### 到此结束，下面不需要看了！！！
 
