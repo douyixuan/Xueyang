@@ -7,7 +7,7 @@ from scrapy.http import HtmlResponse
 import operator
 
 class WeatherSpider(scrapy.Spider):
-    name = "devil"
+    name = "angel"
     # scrapy shell 'https://www.aqistudy.cn/historydata/daydata.php?city=%E5%8C%97%E4%BA%AC&month=2017-01'
     # start_urls=['https://www.aqistudy.cn/historydata/daydata.php?city=%E5%8C%97%E4%BA%AC&month=2017-01']
 

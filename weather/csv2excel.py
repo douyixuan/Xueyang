@@ -35,7 +35,7 @@ if __name__ == '__main__':
     #print(files)
     for file in files:
         bian(file)
-        #print(file.replace('.csv',''))
+        print(file.replace('.csv',''))
 
 
 

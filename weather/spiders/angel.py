@@ -8,7 +8,7 @@ import sys
 
 class WeatherSpider(scrapy.Spider):
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    name = "angel"
+    name = "devil"
     #scrapy shell 'https://www.aqistudy.cn/historydata/daydata.php?city=%E5%8C%97%E4%BA%AC&month=2017-01'
     #start_urls=['https://www.aqistudy.cn/historydata/daydata.php?city=%E5%8C%97%E4%BA%AC&month=2017-01']
 

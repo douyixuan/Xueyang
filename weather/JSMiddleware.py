@@ -42,8 +42,8 @@ class ChromeMiddleware(object):
 
     def process_request(cls, request, spider):
 
-        #if spider.name == "angel":
-        if spider.name == "devil":
+        if spider.name == "angel":
+        #if spider.name == "devil":
 
             options = webdriver.ChromeOptions()
             # 把chrome设置成无界面模式，不论windows还是linux都可以，自动适配对应参数
