@@ -1,26 +1,57 @@
 # 300 Cities' weather records in 2017
 
 > Cause I received a help from Xueyang, so I gave birth to this spider.
-
-
-
-
 ## configuration
-### Path
+### 路径修改
+
+需要修改的文件:
+> 用记事本或者其他工具打开修改
+Xueyang/weather/spiders/devil.py
 ```
-需要修改的地方:
-1.Xueyang/weather/spiders/angel.py
+代码：
+        with open('/Users/mengxiangyu/Downloads/workspace/Xueyang/weather/cities.txt', 'r') as f:
+                cities = f.read().split(' ')
+文件cities.txt的路径需要修改
 
-with open('/Users/mengxiangyu/Downloads/workspace/Xueyang/weather/cities.txt', 'r') as f:
-        cities = f.read().split(' ')
-cities.txt的路径需要修改
-
-2.Xueyang/weather/settings.py
-最下面靠上一点
-FEED_URI = u'file:/Users/mengxiangyu/Downloads/weather.csv'  #将抓取的数据存放到文件中。
-(从/Users开始，换成你的目录：   E：/a/b/..)
-
+代码：
+        city_path = '/Users/mengxiangyu/Downloads/weather/'
+文件输出路径需要修改，你要存在哪里，就写一个路径
+代码：
+        start_urls.append('https://www.aqistudy.cn/historydata/daydata.php?city=' + city +
+                    '&month=2017' + month)
+修改2016只需把改2017替换
 ```
+
+### 环境还差一个chrome浏览器
+http://chromedriver.chromium.org/downloads
+下载之后路径需要配置一下，要不然找不到
+参考文章：
+https://www.jianshu.com/p/5ea69cd6c3f5
+windows 系统环境变量配置，即PATH
+https://jingyan.baidu.com/article/8ebacdf02d3c2949f65cd5d0.html
+
+
+### 运行命令
+```
+>>>cd （Xueyang-master那个文件夹的路径）
+>>>scrapy crawl angel
+
+最后爬完数据以后,csv转换excel
+>>>cd weather
+>>>python csv2excel
+```
+### 到此结束，下面不需要看了！！！
+
+
+
+
+
+
+
+
+
+
+
 ### 使用说明
 ```
 1.下载代码
@@ -50,7 +81,10 @@ pip3 install phantomjs
 7.运行：（在虚拟环境下）
 scrapy crawl angel
 ```
-## Instruction
+
+
+### ！！！！！一定要小心编码，文件编码
+
 
 ### python + selenium + phantomJS
 - 3.7
